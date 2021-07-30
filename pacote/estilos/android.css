@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: #03738C;
+    background-color: var(--cor2);
     font-family: var(--fontePadrao);
     margin: 0px;
     padding: 0px;
@@ -65,11 +65,18 @@ header > p, header > h1 {
 
 nav {
     background-color: var(--cor1);
-    padding: 10px;    
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;        
 }
 
 nav > a {
     color: white;
+    padding: 11px 15px;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor1);
 }
 
 /* MAIN */
@@ -80,6 +87,11 @@ main {
 
 main > article > h1, h2 {
     font-family: var(--fonteAndroid);
+    padding: 15px;
+}
+
+main > article > p {
+    padding: 19px;
 }
 
 /* FOOTER */
@@ -96,6 +108,5 @@ footer > p  {
 }
 
 footer > p > a {
-    text-align: center;
-    color: white;
+    color: var(--cor1);
 }
