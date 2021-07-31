@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* Fontes: Bebas Neue, Poppins, Roboto e Tejawal */
+
 /* CSS Global */
 
 :root {
@@ -12,8 +16,8 @@
     --cor5: #04D9C4;
 
     --fontePadrao: 'Poppins', Verdana, Helvetica, sans-serif;
-    --fonteDestaque: 'Bebas Neue', cursive;
-    --fonteAndroid: 'Poppins', cursive;
+    --fonteDestaque: 'Bebas Neue', Arial;
+    --fonteAndroid: 'Poppins', Arial;
 }
 
 body {
@@ -109,7 +113,7 @@ main > article > p {
 }
 
 main > article > p, main > article > h1,  h2, h3, h4, h5, h6 {
-    font-family: var(--fonteAndroid);
+    font-family: var(--fontePadrao);
     margin: 15px    
 }
 
