@@ -17,17 +17,12 @@
 
     --fontePadrao: 'Poppins', Verdana, Helvetica, sans-serif;
     --fonteDestaque: 'Bebas Neue', cursive;
-    --fonteAndroid: 'Android', cursive;
+    --fonteAndroid: 'Poppins', cursive;
 }
 
 body {
     background-color: var(--cor2);
     font-family: var(--fontePadrao);
-    margin: 0px;
-    padding: 0px;
-}
-
-* {
     margin: 0px;
     padding: 0px;
 }
@@ -40,6 +35,17 @@ abbr {
     text-decoration: none;
 }
 
+#video-android {
+    background-color: var(--cor1);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px
+}
+
+p {
+    text-indent: 10px;
+}
+
 /* HEADER */
 
 header {
@@ -49,12 +55,12 @@ header {
 header > h1 {
     font-family: var(--fonteDestaque);    
     color: white;
-    padding-top: 15px;
+    margin-bottom: 5px
 }
 
 header > p {
     color: white;
-    padding-bottom: 15px;
+    margin-top: 0px;
 }
 
 header > p, header > h1 {
@@ -66,12 +72,12 @@ header > p, header > h1 {
 nav {
     background-color: var(--cor1);
     padding: 10px;
-    box-shadow: 1px 1px 1px black;        
+    box-shadow: 1px 1px 1px black;   
 }
 
 nav > a {
     color: white;
-    padding: 11px 15px;
+    padding: 11px 5px;    
 }
 
 nav > a:hover {
@@ -85,13 +91,17 @@ main {
     background-color: white;
 }
 
-main > article > h1, h2 {
-    font-family: var(--fonteAndroid);
-    padding: 15px;
+main > article {
+    padding: 20px 0px;
 }
 
-main > article > p {
-    padding: 19px;
+main > article > p, main > article > h1,  h2, h3, h4, h5, h6 {
+    font-family: var(--fonteAndroid);
+    margin: 15px    
+}
+
+aside {
+    margin: 15px
 }
 
 /* FOOTER */
@@ -103,8 +113,17 @@ footer {
 footer > p  {
     color: white;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;    
+}
+
+footer > p::after {
+    content: '';
+    display: block;
+    background-color: white;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 7px;
 }
 
 footer > p > a {
