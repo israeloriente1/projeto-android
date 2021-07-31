@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor2);
     font-family: var(--fontePadrao);
     margin: 0px;
     padding: 0px;
@@ -83,21 +83,21 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor2);
-    color: var(--cor1);
+    color: var(--cor2);
+    font-weight: 600;
 }
 
 /* MAIN */
 
 main {
-    background-color: white;
-    max-width: 800px;
-    min-width: 320px;
-    padding: 20px;
+    background-color: white;    
 }
 
 main > article {
     padding: 20px 0px;
+    max-width: 800px;
+    min-width: 320px;
+    padding: 20px;
 }
 
 main > article > p, main > article > h1,  h2, h3, h4, h5, h6 {
