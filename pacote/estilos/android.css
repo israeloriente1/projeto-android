@@ -80,14 +80,13 @@ nav {
 
 nav > p {
     text-align: center;
-    margin: 0px;
-    text-indent: 0px;    
+    margin: auto;
+    text-indent: 0px;
 }
 
-nav > p > a {
+nav > p > a {    
     color: white;
-    padding: 0px auto;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 nav > p > a:hover {
@@ -118,7 +117,7 @@ main > article > p, main > article > h1,  h2, h3, h4, h5, h6 {
 }
 
 main > article > p > a, main > article > aside > p > a {
-    color: var(--cor2);
+    color: black;
     text-decoration: none;
     background-color: var(--cor1);
     padding: 0px 4px;
