@@ -88,7 +88,7 @@ nav a {
     transition-duration: 0.2s; 
 }
 
-nav a:hover {
+nav a:hover, nav a:active {
     color: var(--cor2);
     font-weight: 600; 
 }
