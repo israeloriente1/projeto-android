@@ -10,4 +10,4 @@ var pessoa = [
 var cg = pessoa
     .filter(pessoa => pessoa.cidade === 'Campina Grande');
 
-console.log(`Moram em Campina grande: ${cg.map(pessoa => ` ${pessoa.nome}`)}`)
+console.log(`Moram em Campina grande: ${cg.map(pessoa => ` ${pessoa.nome}`)}`);
