@@ -35,21 +35,24 @@ img {
     width: 100%;
 }
 
-div.video {
-    background-color: var(--cor2);
-    padding-bottom: 57.4%;
-    border-radius: 5px;
+div.video {    
+    padding-bottom: 56.25%;
+    position: relative;    
+}
+
+div.videoTamanho {
     box-shadow: 0px 0px 5px #163a59;
-    position: relative;
     margin: auto;
+    border-radius: 5px;
+    background-color: var(--cor2);
+    padding: 7px;
+    max-width: 660px;
 }
 
 div iframe {
     position: absolute;
-    top: 2%;
-    left: 1%;
-    width: 98%;
-    height: 96%;
+    width: 100%;
+    height: 100%;
 }
 
 /* HEADER */
@@ -148,7 +151,7 @@ main a:hover {
 }
 
 main aside {
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 main aside ul {
