@@ -114,6 +114,7 @@ main img.pequena {
 
 main {
     background-color: white;
+    padding-bottom: 10px;
 }
 
 article {
@@ -158,6 +159,29 @@ main aside ul {
     columns: 2;
 }
 
+button#voltarTopo::after {
+    content: "^";
+}
+
+button#voltarTopo {
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.178);
+    border: none;
+    display: block;
+    padding: 5px 15px;
+    margin: auto; 
+    font-size: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+button#voltarTopo:hover {
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.315);
+}
+
 /* FOOTER */
 
 footer {
@@ -167,8 +191,7 @@ footer {
 footer > p  {
     color: white;
     text-align: center;
-    margin: 0px;
-    padding: 20px;
+    margin: 20px;
 }
 
 footer p::after {
