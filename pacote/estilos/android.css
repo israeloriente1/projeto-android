@@ -147,7 +147,6 @@ main a::after {
 }
 
 main a:hover {
-    padding: 0px 6px;
     color: white;
 }
 
